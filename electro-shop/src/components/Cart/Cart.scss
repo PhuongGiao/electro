@@ -1,0 +1,20 @@
+.Cart {
+  min-height: 80vh;
+  .container {
+    h1 {
+      width: fit-content;
+      margin: 50px auto;
+    }
+
+      h2{
+        text-align: right;
+        margin: 0;
+      }
+      button.ant-btn{
+        display: block;
+        margin: 20px auto;
+        width: 50%;
+      }
+
+  }
+}

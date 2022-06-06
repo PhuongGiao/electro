@@ -1,0 +1,22 @@
+.AllDepartments {
+  width: 25%;
+  margin-bottom: 20px;
+  ul {
+    padding: 10px;
+    border-bottom-left-radius: 0.5em;
+    border-bottom-right-radius: 0.5em;
+    .ant-menu-item {
+      height: 25px;
+      line-height: 25px;
+    }
+    li {
+      transition: all 0.2s;
+      &:hover {
+        background: #e9ecef;
+        span {
+          color: black;
+        }
+      }
+    }
+  }
+}
